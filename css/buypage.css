@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#f1f2f6;
+}
+
+@media only screen and (min-width:320px) and(max-width: 480px) {
+  .card{
+    width: 270px;
+  }
+}
+
+body {
+  font-size: 15px;
+  text-align: center;
+}
+
+span{
+  align-items: start;
+}
+
+/* Card Elements */
+.card {
+  display: flexbox;
+    width: 300px;
+    height: 465px;
+    border-width: 1;
+    max-width: 100%;
+    min-width: 100%;  
+}
+
+.card img {
+  display: flex;
+  /* Set max width and max height for the image to fit within the card */
+  max-width: 100%;
+  max-height: 100%;
+  /* Center the image horizontally and vertically within the card */
+  display: block;
+  margin: 0 auto;
+}
+.checked {
+    color:darkorange;
+  }
+
+.card .btn {
+  background-color: blueviolet;
+}
+
+#prevButton{
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+} 
+
+#nextButton{
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
